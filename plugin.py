@@ -3,6 +3,11 @@
 
 import sublime
 import sublime_plugin
+import os
+from .db import init_db
+
+def plugin_loaded():
+	init_db()
 
 class KornoteNewNoteCommand(sublime_plugin.WindowCommand):
 	def run(self):
