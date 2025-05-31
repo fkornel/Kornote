@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Kornote: New Note",
+		"command": "kornote_new_note"
+	}
+]
