@@ -1,3 +1,6 @@
+# pyright: reportMissingImports=false
+# pyright: reportUnusedImport=false
+
 import sublime
 import sublime_plugin
 
