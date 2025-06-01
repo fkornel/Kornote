@@ -1,3 +1,5 @@
+# pyright: reportMissingImports=false
+
 import uuid
 import sublime_plugin
 
